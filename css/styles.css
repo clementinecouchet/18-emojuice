@@ -111,7 +111,7 @@ h3 {
   align-items: flex-end;
   text-align: left;
   margin: 40px 0 20px;
-  box-shadow: 0px 0px 10px 5px #5c5e5c;
+  box-shadow: 0px 0px 7px -2px #000000;
 }
 
 .card img {
