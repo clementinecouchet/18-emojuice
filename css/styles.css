@@ -11,6 +11,7 @@ img {
   max-width: 100%;
 }
 
+h1{
   margin: 0;
 }
 
@@ -18,15 +19,15 @@ header {
   background-image: url(../img/bg-header.jpg);
   background-size: cover;
   border-top: 8px solid #57bb6b;
-  padding: 40px;
+  padding: 33px;
 }
 
 .box-title {
   background: #ffffff;
   opacity: 90%;
-  padding: 30px 45px 25px;
+  padding: 30px 45px 15px;
   text-align: center;
-  margin-bottom: 33px;
+  margin-bottom: 30px;
   font-size: 20px;
   color: #57bb6b;
 }
@@ -43,7 +44,7 @@ header {
   background: #57bb6b;
   padding: 13px;
   border-radius: 15px;
-  margin: 10px ;
+  margin: 10px;
   text-decoration: none;
   font-family: 'Maven Pro', sans-serif;
   font-size: 20px;
@@ -52,7 +53,7 @@ header {
 .cta-light {
   background: #ffffff;
   color: #57bb6b;
-  margin-bottom: 3px;
+
 }
 
 h2 {
@@ -71,7 +72,7 @@ h3 {
 .section-intro {
   background-color: #ffffff;
   text-align: center;
-  padding: 80px 65px 50px;
+  padding: 90px 65px 40px;
 }
 
 .highlight {
@@ -109,6 +110,7 @@ h3 {
   align-items: flex-end;
   text-align: left;
   margin: 40px 0 20px;
+  box-shadow: 0px 0px 10px 5px green;
 }
 
 .card img {
@@ -120,7 +122,6 @@ h3 {
   margin: 0;
   text-align: left;
   color: #59595a;
-  box-shadow: 0px 0px 10px 5px green;
 }
 
 .card a {
@@ -146,7 +147,10 @@ h3 {
 .section-contact {
   background-color: #ffffff;
   color: #57bb6b;
-  padding: 40px 0 30px;
+}
+
+.section-contact h2 {
+  padding: 40px 0 25px;
 }
 
 footer {
@@ -156,5 +160,13 @@ footer {
   font-family: 'Maven Pro', sans-serif;
   font-size: 12px;
   text-align: center;
-  padding: 35px 40px 15px;
+  padding: 35px 40px 5px;
+}
+
+.section-contact .cta {
+margin-bottom: 5px;
+}
+
+.section-contact:last-of-type {
+  padding-bottom: 30px;
 }
