@@ -11,11 +11,14 @@ img {
   max-width: 100%;
 }
 
+  margin: 0;
+}
+
 header {
   background-image: url(../img/bg-header.jpg);
   background-size: cover;
   border-top: 8px solid #57bb6b;
-  padding: 36px 30px 44px;
+  padding: 40px;
 }
 
 .box-title {
@@ -97,24 +100,61 @@ h3 {
 
 .card {
   border-radius: 25px;
-  background-color: #fff8d7;
+  background-color: #c4f2ad;
   color: #000000;
-  padding: 20px 40px 40px 40px;
+  padding: 20px 40px 30px 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
   text-align: left;
-  margin: 20px 0 30px;
+  margin: 40px 0 20px;
 }
 
 .card img {
   max-width: 80px;
-  padding: 20px 0 0;
+  padding: 25px 0 0;
 }
 
 .card p {
   margin: 0;
   text-align: left;
   color: #59595a;
+  box-shadow: 0px 0px 10px 5px green;
+}
+
+.card a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  font-weight: bold;
+  color: #000000;
+}
+
+.card-banana {
+  background-color: #fff8d7;
+}
+
+.card-cafe {
+  background-color: #d3c6b2;
+}
+
+.card-strawberry {
+  background-color: #f7a4b4;
+}
+
+.section-contact {
+  background-color: #ffffff;
+  color: #57bb6b;
+  padding: 40px 0 30px;
+}
+
+footer {
+  color: #57bb6b;
+  background-color: #ffffff;
+  margin: 0;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 35px 40px 15px;
 }
